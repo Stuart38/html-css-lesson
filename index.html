@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<!-- Doctype tells client (browser) which sets of rules to follow when rendering thsi file -->
+<html lang="en">
+<head>
+    <!-- Contains all metadata information -->
+    <meta charset="UTF-8">
+    <!-- Specifies character encoding of the text -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Allows the server to gather info about the page using HTTP headers -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Controls viewport (viewable space) dimensions and scaling -->
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Body is everything displayed in the viewport -->
+    <nav><ul class="menu">
+        <li class="menu-options"><a href="#html" class="nav-link">HTML</a></li>
+        <li class="menu-options"><a href="#css" class="nav-link">CSS</a></li>
+        <li class="menu-options"><a href="#form-container" class="nav-link">Contact</a></li>
+    </ul>
+    </nav>
+
+    <!-- 
+        ! Comments
+         ? Create a div container with a class of main wrapper
+
+         ? Create a main semantic element with an id of main-heading.  This should contain an h1 with an id of main-text and render HTML & CSS Lesson
+
+         ? Create a section element that is a sibling to the main element.  This section should have an id of html and contain an h2 saying HTML, and a div with class of text-img-wrapper, that will contain a paragraph (empty or filler text).  The section element should also have a div with a class of img-container with an img tag with a class of p-img-logos.  
+
+     -->
+
+     <!-- <div class="main"></div>
+     <main id="main-heading">
+         <h1 id="main-text"></h1>
+         <section id="html">
+             <h2>HTML</h2>
+             <div class="text-img-wrapper">
+                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor perspiciatis illo qui libero consectetur unde rerum, maxime repellendus repellat, eius odit id iure debitis exercitationem nesciunt aliquam beatae quo numquam.
+                 Similique molestiae quisquam laudantium. Atque nam autem iure minima natus reiciendis doloremque porro quisquam quos facere expedita ducimus quis cum, non iste harum rerum commodi. Accusamus recusandae aliquid earum quis!</p>
+             </div>
+             <div class="img-container"></div>
+             <img src="alt="">
+         </section>
+     </main> -->
+
+
+     <!-- Instructor's version -->
+     <div class="main-wrapper">
+         <main id="main-heading">
+             <h1 id="main-text">HTML & CSS Lesson</h1>
+         </main>
+         <section id="html">
+             <h2>HTML</h2>
+             <div class="text-img-wrapper">
+                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim, nihil asperiores saepe ullam vel nemo a modi sit ipsam voluptates. Sequi doloribus quia optio beatae aliquam, mollitia laboriosam cumque consequatur.</p>
+                 <div class="img-container">
+                     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/2560px-HTML5_logo_and_wordmark.svg.png" alt="html-w3-logos" class="p-img-logos">
+             </div>
+         </section>
+     </div>
+
+</body>
+</html>
